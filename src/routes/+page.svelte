@@ -1,13 +1,66 @@
-<h1>ReVanced Web Manager</h1>
-<p>
-	ReVanced was born out of Vanced's discontinuation and it is our goal to continue the legacy of
-	what Vanced left behind. Thanks to ReVanced Patcher, it's possible to create long-lasting patches
-	for nearly any Android app. ReVanced's patching system is designed to allow patches to work on new
-	versions of the apps automatically with bare minimum maintenance. ReVanced offers a variety of
-	patches, including ad-blocking, custom themes, and innovative features. All of which is completely
-	open source and free of charge.
-</p>
-<p>
-	Visit <a href="https://github.com/revanced/revanced-documentation">ReVanced documentation</a> to read
-	the documentation
-</p>
+<script lang="ts">
+	import Button from '$lib/components/Button.svelte';
+</script>
+
+<section class="hero">
+	<div class="hero-text">
+		<h1>Continuing the <br />legacy of <span>Vanced.</span></h1>
+		<p>
+			Customize your mobile experience through ReVanced <br /> by applying patches to your applications.
+		</p>
+		<div class="hero-buttons">
+			<Button icon="patch" type="filled" href="patch">Patch your app</Button>
+			<Button icon="docs" type="tonal" href="docs">Documentation</Button>
+		</div>
+	</div>
+</section>
+
+<style>
+	h1 {
+		color: var(--white);
+		margin-bottom: 1.5rem;
+	}
+
+	p {
+		margin-bottom: 2rem;
+	}
+
+	.hero {
+		padding-bottom: 9rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		vertical-align: middle;
+	}
+
+	.hero-text {
+		align-items: center;
+	}
+
+	.hero-buttons {
+		display: flex;
+		user-select: none;
+		gap: 1rem;
+	}
+
+	span {
+		color: var(--accent-color);
+	}
+
+	@media (max-width: 767px) {
+		.hero {
+			padding-bottom: 0;
+		}
+
+		br {
+			content: ' ';
+		}
+	}
+
+	@media screen and (max-width: 450px) {
+		.hero-buttons {
+			flex-direction: column;
+		}
+	}
+</style>
