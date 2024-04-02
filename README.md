@@ -1,38 +1,55 @@
-# create-svelte
+<p align="center">
+  <!-- add logo later -->
+   <br>
+   Continuing the legacy of Vanced
+</p>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# 💊 ReVanced Web Manager
 
-## Creating a project
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ReVanced/revanced-web-manager/release.yml)
+![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)
 
-If you're seeing this, you've probably already done this step. Congrats!
+Web app to use ReVanced on Web
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## ❓ About
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+ReVanced Web Manager is an web app that uses [ReVanced Patcher](https://github.com/revanced/revanced-patcher) to patch Android apps.
 
-## Developing
+## 💪 Features
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Some of the features ReVanced Web Manager provides are:
 
-```bash
-npm run dev
+- 💉 **Patch apps**: Apply any patch of your choice to Android apps
+- 🌐 **Accessible**: ReVanced Patcher that's available on any web browser
+- 🤗 **Simple UI**: Quickly understand the ins and outs of ReVanced Web Manager
+- 🛠️ **Customization**: Configurable API, custom sources, language, signing keystore, theme and more
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## 🔽 Download
 
-## Building
+You can access the most recent version of ReVanced Web Manager at [manager.revanced.app](https://manager.revanced.app) or from [GitHub releases](https://github.com/ReVanced/revanced-web-manager/releases).  
+Learn how to use ReVanced Web Manager by following the [documentation](/docs).
 
-To create a production version of your app:
+## 📚 Everything else
 
-```bash
-npm run build
-```
+### 📙 Contributing
 
-You can preview the production build with `npm run preview`.
+Thank you for considering contributing to ReVanced Web Manager.
+You can find the contribution guidelines [here](CONTRIBUTING.md).
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### 🛠️ Building
+
+To build a ReVanced Web Manager, you can follow the [documentation](/docs).
+
+### 📄 Documentation
+
+You can find the documentation for ReVanced Web Manager [here](/docs).
+
+### 👋 Contributing
+
+Thank you for considering contributing to ReVanced Web Manager. You can find the contribution guidelines [here](/CONTRIBUTING.md).
+
+## ⚖️ License
+
+ReVanced Web Manager is licensed under the GPLv3 license. Please see the [license file](LICENSE) for more information.
+[tl;dr](https://www.tldrlegal.com/license/gnu-general-public-license-v3-gpl-3) you may copy, distribute and modify ReVanced Web Manager as long as you track changes/dates in source files.
+Any modifications to ReVanced Web Manager must also be made available under the GPL, along with build & install instructions.
